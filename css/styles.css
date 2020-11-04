@@ -853,7 +853,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--white-color);
 
-  opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -879,11 +878,6 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
 }
 
-.our-work-link:hover .description,
-.our-work-link:focus .description {
-  opacity: 1;
-}
-
 /* модалка */
 
 .backdrop {
@@ -892,6 +886,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+  /* height: 1024px; */
 
   background: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
